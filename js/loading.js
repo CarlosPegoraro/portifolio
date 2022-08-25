@@ -2,8 +2,10 @@ var i = setInterval(function () {
     
     clearInterval(i);
 
-    // O código desejado é apenas isto:
+    //document.getElementById("loading").style.display = "none";
+    document.getElementById("body").style.overflow = "scroll";
+    //document.getElementById("body").style.backgroundImage = "url(/image/background/background.jpg)";
     document.getElementById("loading").style.display = "none";
-    document.getElementById("conteudo").style.display = "inline";
+    document.getElementById("page").style.display = "inline";
 
 }, 4000);

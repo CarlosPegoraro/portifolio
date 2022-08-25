@@ -1,0 +1,8 @@
+@keyframes loading {
+    0% {opacity: 100%;};
+    20% {opacity: 80%;};
+    40% {opacity: 60%;};
+    60% {opacity: 40%;};
+    80% {opacity: 20%;};
+    100% {opacity: 0%;};
+}
