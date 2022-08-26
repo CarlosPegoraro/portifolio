@@ -5,17 +5,21 @@
 }
 
 #body {
+    margin: 0px;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #313131;
 }
 
 #loading {
-    margin: 0px 5rem;
+    margin: 0px;
+    width: 50%;
+    height: 108rem;
+    background-color: #FE5C40;
 }
 
 .loading-image {
-    width: 110rem;
-    
+    margin: 1rem 8.45rem;
+    width: 100rem;
 }
 
 #page {
