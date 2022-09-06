@@ -1,0 +1,51 @@
+@import url('../animation/loading.css');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Edu+VIC+WA+NT+Beginner&display=swap');
+
+:root {
+    /*Colors*/
+    --ciano-escuro: #007c7f;
+    --ciano-medio: #00bbbd;
+    --ciano-neon: #00ffff;
+    --ciano-claro: #8bffff;
+    /*Fontes - family*/
+    --fonte-padrao: 'Dosis', sans-serif;
+    --fonte-estilo: 'Edu VIC WA NT Beginner', cursive;
+    /*Fontes - size*/
+    --fonte-gigante: 4rem;
+    --fonte-titulo: 2rem;
+    --fonte-destaque: 1rem;
+    --fonte-texto: 0.75rem;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../../image/background/backgroundTop.jpg');
+    background-color: var(--ciano-escuro);
+    overflow: hidden;
+}
+
+/*Loading - Settings*/
+
+.loading {
+    position: absolute;
+    left: 42%;
+    top: 35%;
+}
+
+.loading-text {
+    color: #00ffff;
+    font-size: var(--fonte-gigante);
+    font-family: var(--fonte-estilo);
+    animation: gradient-cian-to-white 4s 1 linear;
+}
+
+/*Flip animitted*/
+.flip-container {
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+}

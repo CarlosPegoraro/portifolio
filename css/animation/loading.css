@@ -6,3 +6,8 @@
     80% {opacity: 20%;};
     100% {opacity: 0%;};
 }
+
+@keyframes gradient-cian-to-white {
+    0% {color: aliceblue;}
+    100% {color: var(--ciano-neon);}
+}
