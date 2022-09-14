@@ -1,9 +1,3 @@
-<style>
-  a {
-  color: #1090aa
- }
- </style>
-
 Web Developer
 Front and Back end developer<br>
 <a href="https://carlospegoraro.github.io/portifolio/">Web Site</a> <br>
