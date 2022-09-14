@@ -1,5 +1,11 @@
+<style>
+  a {
+  color: #1090aa
+ }
+ </style>
+
 Web Developer
 Front and Back end developer<br>
-Web site: https://carlospegoraro.github.io/portifolio/ <br>
+<a href="https://carlospegoraro.github.io/portifolio/">Web Site</a> <br>
 https://trianglify.io/ <br>
 https://svgwave.in/ <br>
