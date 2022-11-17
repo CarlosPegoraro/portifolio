@@ -1,19 +1,25 @@
 @import url('../animation/loading.css');
-@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Edu+VIC+WA+NT+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
     /*Colors*/
-    --ciano-escuro: #007c7f;
-    --ciano-medio: #00bbbd;
-    --ciano-neon: #00ffff;
-    --ciano-claro: #8bffff;
+    --marrom: #D08C60;
+    --marrom-dark: #8f6b52;
+    --amarelo: #FFCB69;
+    --amarelo-dark: #be9d5e;
+    --ciano: #35BBB6;
+    --ciano-dark: #359292;
+    --cinza: #858585;
+    --cinza-dark: #5a5a5a;
+    --branco: #EAEAEA;
     /*Fontes - family*/
-    --fonte-padrao: 'Dosis', sans-serif;
-    --fonte-estilo: 'Edu VIC WA NT Beginner', cursive;
+    --mont: 'Montserrat', sans-serif;
     /*Fontes - size*/
-    --fonte-gigante: 4rem;
-    --fonte-titulo: 2rem;
-    --fonte-destaque: 1rem;
+    --fonte-gigante: 3rem;
+    --fonte-grande: 2rem;
+    --fonte-grande-hover: 2.3rem;
+    --fonte-medio: 1rem;
+    --fonte-medio-hover: 1.3rem;
     --fonte-texto: 0.75rem;
 }
 
@@ -23,29 +29,47 @@ html, body {
 }
 
 body {
-    background-image: url('../../image/background/backgroundTop.jpg');
-    background-color: var(--ciano-escuro);
+    background-image: url('../../image/background/backgroun.svg');
+    background-color: var(--cinza);
     overflow: hidden;
 }
 
-/*Loading - Settings*/
+/* Tags do Bootstrap*/
 
-.loading {
-    position: absolute;
-    left: 42%;
-    top: 35%;
+.navbar {
+    width: 80%;
+    text-align: center;
+    background-color: var(--branco);
+    border-radius: 0px 0px 20px 20px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
 }
 
-.loading-text {
-    color: #00ffff;
-    font-size: var(--fonte-gigante);
-    font-family: var(--fonte-estilo);
-    animation: gradient-cian-to-white 4s 1 linear;
+.nav-link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: var(--fonte-medio);
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.2em;
 }
 
-/*Flip animitted*/
-.flip-container {
-    width: 100%;
-    height: 100%;
-    perspective: 1000px;
+.nav-link:hover {
+    font-size: var(--fonte-medio-hover);
+    transition: 0.5s;
+}
+
+.text-secondary {
+    color: var(--cinza);
+}
+
+/* Own Tags*/
+
+.brand {
+    width: 80px;
+}
+
+.menu {
+    width: 60px;
 }
