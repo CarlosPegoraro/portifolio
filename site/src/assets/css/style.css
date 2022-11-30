@@ -1,6 +1,4 @@
-@import url('../animation/loading.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
 :root {
     /*Colors*/
     --marrom: #D08C60;
@@ -26,6 +24,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -67,9 +66,15 @@ body {
 /* Own Tags*/
 
 .brand {
-    width: 80px;
+    width: 4vw;
 }
 
 .menu {
     width: 60px;
+}
+
+@media screen and (max-width: 800px) {
+    .brand {
+        width: 10vw;
+    }
 }
