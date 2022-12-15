@@ -1,0 +1,56 @@
+@import url('style.css');
+
+.navbar {
+    width: 80%;
+    text-align: center;
+    background-color: var(--branco);
+    border-radius: 0px 0px 20px 20px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: var(--fonte-medio);
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+.nav-link:hover {
+    font-size: var(--fonte-medio-hover);
+    transition: 0.5s;
+}
+
+.text-secondary {
+    color: var(--cinza);
+}
+
+/* Own Tags*/
+
+.brand {
+    width: 4vw;
+}
+
+.menu {
+    width: 60px;
+}
+
+#banner {
+    width: 5vw;
+    position: fixed;
+    top: 0;
+    left: 2vw;
+}
+
+@media screen and (max-width: 800px) {
+    .brand {
+        width: 10vw;
+    }
+
+    #banner {
+        display: none;
+    }
+}
